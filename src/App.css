@@ -1,0 +1,63 @@
+.day-column {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    margin: 10px;
+  }
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.timeSlot {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin:10px;
+}
+
+.timeSlot label {
+  flex-wrap: nowrap;
+  margin-left: 5px; /* Optional: Adjust margin for spacing between checkbox and label */
+}
+
+.timeSlot input {
+  width: 30px;
+  height: 20px;
+}
+
+/* Optional: Adjust styles for better appearance */
+.day-column h3 {
+  margin-bottom: 5px;
+}
+
+
+button{
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(0, 153, 255);
+    background-color: white;
+    cursor: pointer;
+}
+
+.timezone{
+    margin: 20px;
+}
+
+select{
+    width: 100% !important;
+    height: 70px;
+    border: 2px solid rgb(0, 153, 255);
+    padding: 0 10px;
+}
+
+h3{
+    color: red;
+}
+
+span{
+    text-align: center;
+    font-size: larger;
+}
